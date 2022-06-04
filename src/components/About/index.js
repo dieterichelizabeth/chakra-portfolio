@@ -43,7 +43,7 @@ function About() {
               skills as part of a collaborative, versatile team to build
               intuitive and useful applications for users.
             </Text>
-            <Text color={"gray.500"} fontSize={"14px"}>
+            <Text color={"gray.600"} fontSize={"14px"}>
               <i className="bi bi-linkedin mr-2"></i>{" "}
               https://www.linkedin.com/in/elizabeth-dieterich-067b55a8/
               <br />

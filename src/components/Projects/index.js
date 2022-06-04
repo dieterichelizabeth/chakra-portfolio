@@ -13,6 +13,26 @@ function Projects() {
   // Project Information
   const projectList = [
     {
+      name: "Zoolander",
+      category: "MySQL Express",
+      languages: "JavaScript, Handlebars, Swiper.js, MySQL, Sequelize",
+      description:
+        "Zoolander is a fun, relaxing Web Application where users can unwind by watching live animal cameras either during or after a long day. Users are able to create an account, leave a comment for the animals, and favorite videos so they appear in their dashboard.",
+      image: "zoolander",
+      githubLink: "https://github.com/JFlo1981/Virtual-Zoo",
+      deployed: "https://virtual-zoo-1234.herokuapp.com/",
+    },
+    {
+      name: "Food Truck Finder",
+      category: "React",
+      languages: "React, Chakra UI, GraphQl, Apollo-Express, MongoDb, Node.js",
+      description:
+        "Food Truck Finder is a full-stack MERN app that uses the Google Maps and Yelp APIs to let you search for a Food Truck and returns results of Food Trucks in the area searched.",
+      image: "FoodTruckFinder",
+      githubLink: "https://github.com/JFlo1981/FoodTruckFinder",
+      deployed: "https://stark-garden-14782.herokuapp.com/",
+    },
+    {
       name: "TechBlog Bebop",
       category: "MySQL Express",
       languages: "Node.js, Express.js, Express-Session, Sequelize",
@@ -42,16 +62,16 @@ function Projects() {
       githubLink: "https://github.com/dieterichelizabeth/weathering-with-apis",
       deployed: "https://weathering-with-apis.herokuapp.com/",
     },
-    // {
-    //   name: "Workday Scheduler",
-    //   languages: "Bootstrap, JQuery, HTML",
-    //   category: "Javascript",
-    //   description:
-    //     "Workday timetable is simple calendar app that allows the user to save events for each hour of the day. The app keeps track of time by changing the colors of the taskbox as each hour passes.",
-    //   image: "workdaySchedule",
-    //   githubLink: "https://dieterichelizabeth.github.io/workday-timetable/",
-    //   deployed: "https://dieterichelizabeth.github.io/workday-timetable/",
-    // },
+    {
+      name: "Workday Scheduler",
+      languages: "Bootstrap, JQuery, HTML",
+      category: "Javascript",
+      description:
+        "Workday timetable is simple calendar app that allows the user to save events for each hour of the day. The app keeps track of time by changing the colors of the taskbox as each hour passes.",
+      image: "workdaySchedule",
+      githubLink: "https://dieterichelizabeth.github.io/workday-timetable/",
+      deployed: "https://dieterichelizabeth.github.io/workday-timetable/",
+    },
   ];
 
   return (
@@ -69,7 +89,7 @@ function Projects() {
           spacing={"20"}
           mt={16}
           mx={"auto"}
-          padding={"30px"}
+          padding={"10px"}
         >
           {projectList.map((project) => (
             <Box
