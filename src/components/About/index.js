@@ -30,14 +30,14 @@ function About() {
                 About
               </Text>
             </Heading>
-            <Text color={"gray.500"}>
+            <Text color={"gray.700"}>
               I am a Full stack web developer leveraging anthropology background
               to create practical, robust applications. Currently styding Full
               Stack Web Development from the University of Texas Austin Coding
               Bootcamp, with newly developed skills in HTML, CSS, Javascript,
               MERN Stack Development and responsive configurations.
             </Text>
-            <Text color={"gray.500"}>
+            <Text color={"gray.600"}>
               With each project, my aim is to balance design and functionality
               for an effortless user experience. I am excited to leverage my
               skills as part of a collaborative, versatile team to build

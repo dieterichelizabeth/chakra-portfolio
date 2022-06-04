@@ -1,11 +1,12 @@
 import React from "react";
 import About from "../About";
 import Resume from "../Resume";
+import Portfolio from "../Portfolio";
 
 function Main({ currentPage }) {
   const activePage = () => {
     if (currentPage === "Portfolio") {
-      return <div>Portfolio</div>;
+      return <Portfolio />;
     }
     if (currentPage === "About") {
       return <About />;
