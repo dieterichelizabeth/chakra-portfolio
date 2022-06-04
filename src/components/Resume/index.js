@@ -5,14 +5,15 @@ function Resume() {
   return (
     <div>
       <Stack className={"project-animation"} width={"60%"} margin={"auto"}>
-        <Link color={"blue"} margin={"auto"} marginTop={"20px"}>
-          <a
-            href={require("../../assets/resume.pdf")}
-            download="Dieterich-Elizabeth-Resume"
-            className="col-12 text-center"
-          >
-            Download a PDF Copy
-          </a>
+        <Link
+          href={require("../../assets/resume.pdf")}
+          download="Dieterich-Elizabeth-Resume"
+          className="col-12 text-center"
+          color={"blue"}
+          margin={"auto"}
+          marginTop={"20px"}
+        >
+          Download a PDF Copy
         </Link>
         <Image
           src={require(`../../assets/page1.png`)}

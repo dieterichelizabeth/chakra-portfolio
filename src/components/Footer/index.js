@@ -1,46 +1,51 @@
 import {
   Box,
+  Button,
   Container,
   Stack,
   Text,
   Link,
+  Heading,
   useColorModeValue,
 } from "@chakra-ui/react";
 
 export default function Footer() {
   return (
     <Box
-      bg={useColorModeValue("gray.50", "gray.900")}
+      bg={useColorModeValue("gray.100", "gray.900")}
       color={useColorModeValue("gray.700", "gray.200")}
     >
       <Container
         as={Stack}
         maxW={"6xl"}
-        py={4}
-        direction={{ base: "column", md: "row" }}
+        py={6}
         spacing={4}
-        justify={{ base: "center", md: "space-between" }}
-        align={{ base: "center", md: "center" }}
+        justify={"center"}
+        align={"center"}
       >
-        <Stack direction={"column"} spacing={0}>
-          <Text>©Liz Dieterich</Text>
-          <Text>
-            Made with Love and
-            <Link
-              href={"https://chakra-ui.com/"}
-              rel="noopener noreferrer"
-              target="_blank"
-              _hover={{
-                textDecoration: "none",
-                bg: useColorModeValue("gray.200", "gray.700"),
-              }}
-              className="smallLeft"
-            >
-              Chakra UI
-            </Link>
-          </Text>
-        </Stack>
+        <Heading fontSize="1xl" color={"blue.500"}>
+          Get In Touch
+        </Heading>
 
+        <Text textAlign={"center"}>
+          Thank you for viewing my portfolio! <br />
+          If you have any questions please reach out, my inbox is always open.
+        </Text>
+        <Button
+          px={4}
+          fontSize={"sm"}
+          rounded={"full"}
+          bg={"blue.400"}
+          color={"white"}
+          _hover={{
+            bg: "blue.500",
+          }}
+          _focus={{
+            bg: "blue.500",
+          }}
+        >
+          <Link href="mailto:dieterichelizabeth@gmail.com">Send an Email!</Link>
+        </Button>
         <Stack direction={"row"} spacing={6}>
           <Link
             href={"https://github.com/dieterichelizabeth"}
@@ -54,9 +59,24 @@ export default function Footer() {
             rel="noopener noreferrer"
             target="_blank"
           >
-            linkedin
+            LinkedIn
           </Link>
         </Stack>
+        <Text>
+          Made with Love and
+          <Link
+            href={"https://chakra-ui.com/"}
+            rel="noopener noreferrer"
+            target="_blank"
+            _hover={{
+              textDecoration: "none",
+              bg: useColorModeValue("gray.200", "gray.700"),
+            }}
+          >
+            {" "}
+            Chakra UI
+          </Link>
+        </Text>
       </Container>
     </Box>
   );

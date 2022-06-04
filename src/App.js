@@ -77,7 +77,7 @@ function App() {
                   onClick={() => {
                     navHandler(link.name);
                   }}
-                  color={currentPage === link.name ? "blue.300" : "gray.700"}
+                  color={currentPage === link.name ? "blue.500" : "gray.700"}
                   rounded={"md"}
                   _hover={{
                     textDecoration: "none",
@@ -105,9 +105,7 @@ function App() {
                   onClick={() => {
                     navHandler(link.name);
                   }}
-                  className={
-                    currentPage === link.name ? "link-active" : "link-inactive"
-                  }
+                  color={currentPage === link.name ? "blue.500" : "gray.700"}
                   _hover={{
                     textDecoration: "none",
                     bg: ("gray.200", "gray.300"),

@@ -43,6 +43,18 @@ function About() {
               skills as part of a collaborative, versatile team to build
               intuitive and useful applications for users.
             </Text>
+            <Text color={"gray.500"} fontSize={"14px"}>
+              <i className="bi bi-linkedin mr-2"></i>{" "}
+              https://www.linkedin.com/in/elizabeth-dieterich-067b55a8/
+              <br />
+              <i className="bi bi-github mr-2"></i>{" "}
+              https://github.com/dieterichelizabeth
+              <br />
+              <i className="bi bi-envelope mr-2"></i>{" "}
+              dieterichelizabeth@gmail.com
+              <br />
+              <i className="bi bi-geo-alt mr-2"></i> Dallas, TX
+            </Text>
           </Stack>
           <Flex
             flex={1}
