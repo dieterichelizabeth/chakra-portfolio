@@ -1,5 +1,6 @@
 import React from "react";
 import About from "../About";
+import Resume from "../Resume";
 
 function Main({ currentPage }) {
   const activePage = () => {
@@ -10,7 +11,7 @@ function Main({ currentPage }) {
       return <About />;
     }
     if (currentPage === "Resume") {
-      return <div>Resume</div>;
+      return <Resume />;
     }
     return <div>Contact</div>;
   };

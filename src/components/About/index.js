@@ -7,18 +7,12 @@ import {
   Box,
   Heading,
   Text,
-  Button,
   Image,
-  Icon,
-  IconButton,
-  createIcon,
-  IconProps,
-  useColorModeValue,
 } from "@chakra-ui/react";
 
 function About() {
   return (
-    <section className="col-12 d-flex flex-wrap justify-content-center project-animation">
+    <section className="project-animation">
       <Container maxW={"7xl"}>
         <Stack
           align={"center"}
