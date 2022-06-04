@@ -37,7 +37,7 @@ function About() {
               Bootcamp, with newly developed skills in HTML, CSS, Javascript,
               MERN Stack Development and responsive configurations.
             </Text>
-            <Text color={"gray.600"}>
+            <Text color={"gray.600"} fontSize={"15px"}>
               With each project, my aim is to balance design and functionality
               for an effortless user experience. I am excited to leverage my
               skills as part of a collaborative, versatile team to build

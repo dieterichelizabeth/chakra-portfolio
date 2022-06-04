@@ -14,7 +14,6 @@ function Main({ currentPage }) {
     if (currentPage === "Resume") {
       return <Resume />;
     }
-    return <div>Contact</div>;
   };
 
   return <main>{activePage()}</main>;

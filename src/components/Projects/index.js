@@ -98,7 +98,7 @@ function Projects() {
                       rel="noopener noreferrer"
                       target="_blank"
                     >
-                      <i class="bi bi-github text-dark"></i>
+                      <i className="bi bi-github text-dark"></i>
                     </a>
                   </span>
                 </Heading>

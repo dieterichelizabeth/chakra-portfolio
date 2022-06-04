@@ -6,22 +6,17 @@ import {
   HStack,
   Link,
   IconButton,
-  Button,
   useDisclosure,
-  useColorMode,
   useColorModeValue,
   Stack,
 } from "@chakra-ui/react";
-import { HamburgerIcon, CloseIcon, MoonIcon, SunIcon } from "@chakra-ui/icons";
+import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 import Main from "./components/Main";
 import Footer from "./components/Footer";
 
 function App() {
   // Mobile Nav definitions through Chakra UI Hook
   const { isOpen, onOpen, onClose } = useDisclosure();
-
-  // Light/Darkmode Chakra UI Hook
-  const { colorMode, toggleColorMode } = useColorMode();
 
   // Set "About" as the value of the currentPage variable
   const [currentPage, SetCurrentPage] = useState("About");
@@ -30,7 +25,6 @@ function App() {
   const navLinks = [
     { name: "Portfolio", href: "#portfolio" },
     { name: "About", href: "#about" },
-    { name: "Contact", href: "#contact" },
     { name: "Resume", href: "#resume" },
   ];
 
@@ -59,12 +53,16 @@ function App() {
                   textDecoration: "none",
                   bg: useColorModeValue("gray.200", "gray.700"),
                 }}
+                fontWeight={"bold"}
                 href={"/"}
               >
                 Liz Dieterich
               </Link>
             </Box>
+          </HStack>
 
+          {/* Light/Dark Mode Button */}
+          <Flex alignItems={"center"}>
             {/* Nav Links */}
             <HStack
               as={"nav"}
@@ -79,9 +77,7 @@ function App() {
                   onClick={() => {
                     navHandler(link.name);
                   }}
-                  className={
-                    currentPage === link.name ? "link-active" : "link-inactive"
-                  }
+                  color={currentPage === link.name ? "blue.300" : "gray.700"}
                   rounded={"md"}
                   _hover={{
                     textDecoration: "none",
@@ -93,13 +89,6 @@ function App() {
                 </Link>
               ))}
             </HStack>
-          </HStack>
-
-          {/* Light/Dark Mode Button */}
-          <Flex alignItems={"center"}>
-            <Button onClick={toggleColorMode}>
-              {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
-            </Button>
           </Flex>
         </Flex>
 

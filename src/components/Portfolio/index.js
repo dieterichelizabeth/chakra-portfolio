@@ -12,21 +12,20 @@ function Portfolio() {
         spacing={2}
         textAlign="center"
       >
-        <Heading mt={16} fontSize="1xl">
+        <Heading mt={16} fontSize="1xl" color={"blue.500"}>
           Group Projects
         </Heading>
-        <Text fontSize="lg" color={"gray.500"}>
+        <Text fontSize="md" color={"gray.500"}>
           Projects completed through collaboration in team of 4 developers.
         </Text>
       </VStack>
       <GroupProjects />
       <VStack marginTop={"20px"} spacing={2} textAlign="center">
-        <Heading mt={16} fontSize="1xl">
-          Projects
+        <Heading mt={16} fontSize="1xl" color={"blue.500"}>
+          Selected Personal Projects
         </Heading>
-        <Text fontSize="lg" color={"gray.500"}>
-          Personal Projects completed for Bootcamp at the University of Texas at
-          Austin.
+        <Text fontSize="md" color={"gray.500"}>
+          Projects completed for Bootcamp at the University of Texas at Austin.
         </Text>
       </VStack>
       <Projects />
