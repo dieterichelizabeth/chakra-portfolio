@@ -6,6 +6,8 @@ This project is another remake of my portfolio, this time using the wonderful Ch
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), [Chakra UI](https://chakra-ui.com/), and [Bootstrap Icons](https://icons.getbootstrap.com/).
 
+For reference, previous portfolio repositories- [HTML Portfiolio](https://github.com/dieterichelizabeth/Portfolio) and [First React Portfolio](https://github.com/dieterichelizabeth/React-Portfolio)
+
 ## Screenshots
 
 <img width="466" alt="Screen Shot 2022-06-04 at 6 43 38 PM" src="https://user-images.githubusercontent.com/95142863/172029187-863d0f6a-b216-4362-9bfd-838d5c5e1983.png">
