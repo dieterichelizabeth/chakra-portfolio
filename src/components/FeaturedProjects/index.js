@@ -12,15 +12,14 @@ import {
 
 export default function FeaturedProjects() {
   const project1 = (
-    <Container maxW={"6xl"} py={12}>
+    <Container maxW={"6xl"} py={{ base: 40, md: 20 }}>
       <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
         <Stack spacing={4}>
           <Text
             textTransform={"uppercase"}
             color={"blue.400"}
             fontWeight={600}
-            fontSize={"sm"}
-            bg={useColorModeValue("blue.50", "blue.900")}
+            fontSize={"xs"}
             p={2}
             alignSelf={"flex-start"}
             rounded={"md"}
@@ -43,7 +42,8 @@ export default function FeaturedProjects() {
             }
           >
             <Text color={"gray.500"} fontSize={"sm"}>
-              JavaScript, Handlebars, Swiper.js, MySQL, Sequelize
+              Handlebars, Bootstrap, JavaScript, Node.js, Handlebars, Swiper.js,
+              MySQL, Sequelize
             </Text>
             <SimpleGrid columns={{ base: 2, md: 2, lg: 2 }}>
               {" "}
@@ -84,7 +84,7 @@ export default function FeaturedProjects() {
           <Image
             rounded={"md"}
             alt={"feature image"}
-            src={require(`../../assets/small/zoolander.png`)}
+            src={require(`../../assets/small/zoo.png`)}
             objectFit={"cover"}
           />
         </Flex>
@@ -93,13 +93,13 @@ export default function FeaturedProjects() {
   );
 
   const project2 = (
-    <Container maxW={"6xl"} py={12}>
+    <Container maxW={"6xl"} py={{ base: 40, md: 20 }}>
       <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
         <Flex>
           <Image
             rounded={"md"}
             alt={"feature image"}
-            src={require(`../../assets/small/FoodTruckFinder.png`)}
+            src={require(`../../assets/small/fft.png`)}
             objectFit={"cover"}
           />
         </Flex>
@@ -108,8 +108,7 @@ export default function FeaturedProjects() {
             textTransform={"uppercase"}
             color={"blue.400"}
             fontWeight={600}
-            fontSize={"sm"}
-            bg={useColorModeValue("blue.50", "blue.900")}
+            fontSize={"xs"}
             p={2}
             alignSelf={"flex-start"}
             rounded={"md"}
@@ -131,7 +130,8 @@ export default function FeaturedProjects() {
             }
           >
             <Text color={"gray.500"} fontSize={"sm"}>
-              React, Chakra UI, GraphQl, Apollo-Express, MongoDb, Node.js
+              CSS, Chakra UI, JavaScript, Node.js, React, GraphQl,
+              Apollo-Express, MongoDb, Mongoose
             </Text>
             <SimpleGrid columns={{ base: 2, md: 2, lg: 2 }}>
               {" "}
@@ -173,15 +173,14 @@ export default function FeaturedProjects() {
   );
 
   const project3 = (
-    <Container maxW={"6xl"} py={12}>
-      <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
+    <Container maxW={"6xl"} py={{ base: 40, md: 20 }}>
+      <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10} py={15}>
         <Stack spacing={4}>
           <Text
             textTransform={"uppercase"}
             color={"blue.400"}
             fontWeight={600}
-            fontSize={"sm"}
-            bg={useColorModeValue("blue.50", "blue.900")}
+            fontSize={"xs"}
             p={2}
             alignSelf={"flex-start"}
             rounded={"md"}
@@ -204,7 +203,8 @@ export default function FeaturedProjects() {
             }
           >
             <Text color={"gray.500"} fontSize={"sm"}>
-              Node.js, Express.js, Express-Session, Sequelize
+              Handlebars, CSS, JavaScript, Node.js, Express.js, Express-Session,
+              MySQL, Sequelize
             </Text>
             <SimpleGrid columns={{ base: 2, md: 2, lg: 2 }}>
               {" "}
@@ -245,7 +245,7 @@ export default function FeaturedProjects() {
           <Image
             rounded={"md"}
             alt={"feature image"}
-            src={require(`../../assets/small/techBlog.png`)}
+            src={require(`../../assets/small/tech.png`)}
             objectFit={"cover"}
           />
         </Flex>

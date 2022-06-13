@@ -55,7 +55,7 @@ function App() {
                 fontWeight={"bold"}
                 href={"/"}
               >
-                Liz Dieterich
+                LIZ DIETERICH
               </Link>
             </Box>
           </HStack>

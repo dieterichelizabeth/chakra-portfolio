@@ -18,7 +18,9 @@ function Portfolio() {
       </VStack>
 
       <FeaturedProjects />
-
+      <Heading mt={16} fontSize="1xl" textAlign="center">
+        All Projects
+      </Heading>
       <Projects />
     </section>
   );
