@@ -1,5 +1,6 @@
 import React from "react";
 import Projects from "../Projects";
+import FeaturedProjects from "../FeaturedProjects";
 import { Heading, VStack } from "@chakra-ui/react";
 
 function Portfolio() {
@@ -15,6 +16,8 @@ function Portfolio() {
           Projects
         </Heading>
       </VStack>
+
+      <FeaturedProjects />
 
       <Projects />
     </section>

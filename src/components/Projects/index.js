@@ -13,36 +13,6 @@ function Projects() {
   // Project Information
   const projectList = [
     {
-      name: "Zoolander",
-      category: "MySQL Express",
-      languages: "JavaScript, Handlebars, Swiper.js, MySQL, Sequelize",
-      description:
-        "Zoolander is a fun, relaxing Web Application where users can unwind by watching live animal cameras either during or after a long day. Users are able to create an account, leave a comment for the animals, and favorite videos so they appear in their dashboard.",
-      image: "zoolander",
-      githubLink: "https://github.com/JFlo1981/Virtual-Zoo",
-      deployed: "https://virtual-zoo-1234.herokuapp.com/",
-    },
-    {
-      name: "Food Truck Finder",
-      category: "React",
-      languages: "React, Chakra UI, GraphQl, Apollo-Express, MongoDb, Node.js",
-      description:
-        "Food Truck Finder is a full-stack MERN app that uses the Google Maps and Yelp APIs to let you search for a Food Truck and returns results of Food Trucks in the area searched.",
-      image: "FoodTruckFinder",
-      githubLink: "https://github.com/JFlo1981/FoodTruckFinder",
-      deployed: "https://stark-garden-14782.herokuapp.com/",
-    },
-    {
-      name: "TechBlog Bebop",
-      category: "MySQL Express",
-      languages: "Node.js, Express.js, Express-Session, Sequelize",
-      description:
-        "TechBlog Bebop is a CMS-style blog where developers can publish their blog posts and comment on other developers' posts as well. Users can create an account to share article links, blog posts, their thoughts and opinions.",
-      image: "techBlog",
-      githubLink: "https://github.com/dieterichelizabeth/TechBlog-Bebop",
-      deployed: "https://agile-lake-02431.herokuapp.com/",
-    },
-    {
       name: "Budget Tracker",
       category: "MondoDB",
       languages: "Node.js, MongoDB, Mongoose",
