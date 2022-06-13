@@ -13,7 +13,7 @@ function Portfolio() {
         textAlign="center"
       >
         <Heading mt={16} fontSize="1xl">
-          Projects
+          Selected Projects
         </Heading>
       </VStack>
 

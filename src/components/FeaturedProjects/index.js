@@ -9,8 +9,16 @@ import {
   StackDivider,
   useColorModeValue,
 } from "@chakra-ui/react";
+import { useInView } from "react-intersection-observer";
 
 export default function FeaturedProjects() {
+  const { ref, inView } = useInView({
+    /* Optional options */
+    triggerOnce: true,
+    rootMargin: "100px 0px",
+    threshold: 1,
+  });
+
   const project1 = (
     <Container maxW={"6xl"} py={{ base: 40, md: 20 }}>
       <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
@@ -173,89 +181,98 @@ export default function FeaturedProjects() {
   );
 
   const project3 = (
-    <Container maxW={"6xl"} py={{ base: 40, md: 20 }}>
-      <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10} py={15}>
-        <Stack spacing={4}>
-          <Text
-            textTransform={"uppercase"}
-            color={"blue.400"}
-            fontWeight={600}
-            fontSize={"xs"}
-            p={2}
-            alignSelf={"flex-start"}
-            rounded={"md"}
-          >
-            Featured
-          </Text>
-          <Heading>TechBlog Bebop</Heading>
-          <Text color={"gray.500"} fontSize={"lg"}>
-            TechBlog Bebop is a CMS-style blog where developers can publish
-            their blog posts and comment on other developers' posts as well.
-            Users can create an account to share article links, blog posts,
-            their thoughts and opinions.
-          </Text>
-          <Stack
-            spacing={4}
-            divider={
-              <StackDivider
-                borderColor={useColorModeValue("gray.100", "gray.700")}
-              />
-            }
-          >
-            <Text color={"gray.500"} fontSize={"sm"}>
-              Handlebars, CSS, JavaScript, Node.js, Express.js, Express-Session,
-              MySQL, Sequelize
+    <div
+      ref={ref}
+      className={`transition-opacity ${inView ? "opacity-1" : "opacity-0"}`}
+    >
+      <Container maxW={"6xl"} py={{ base: 40, md: 20 }}>
+        <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10} py={15}>
+          <Stack spacing={4}>
+            <Text
+              textTransform={"uppercase"}
+              color={"blue.400"}
+              fontWeight={600}
+              fontSize={"xs"}
+              p={2}
+              alignSelf={"flex-start"}
+              rounded={"md"}
+            >
+              Featured
             </Text>
-            <SimpleGrid columns={{ base: 2, md: 2, lg: 2 }}>
-              {" "}
-              <Text
-                color={"#212224"}
-                _hover={{
-                  textDecoration: "underline",
-                }}
-              >
-                <a
-                  href="https://github.com/dieterichelizabeth/TechBlog-Bebop"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  className="col-12 text-center"
-                >
-                  View Repository →
-                </a>
+            <Heading>TechBlog Bebop</Heading>
+            <Text color={"gray.500"} fontSize={"lg"}>
+              TechBlog Bebop is a CMS-style blog where developers can publish
+              their blog posts and comment on other developers' posts as well.
+              Users can create an account to share article links, blog posts,
+              their thoughts and opinions.
+            </Text>
+            <Stack
+              spacing={4}
+              divider={
+                <StackDivider
+                  borderColor={useColorModeValue("gray.100", "gray.700")}
+                />
+              }
+            >
+              <Text color={"gray.500"} fontSize={"sm"}>
+                Handlebars, CSS, JavaScript, Node.js, Express.js,
+                Express-Session, MySQL, Sequelize
               </Text>
-              <Text
-                color={"#212224"}
-                _hover={{
-                  textDecoration: "underline",
-                }}
-              >
-                <a
-                  href="https://agile-lake-02431.herokuapp.com/"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  className="col-12 text-center"
+              <SimpleGrid columns={{ base: 2, md: 2, lg: 2 }}>
+                {" "}
+                <Text
+                  color={"#212224"}
+                  _hover={{
+                    textDecoration: "underline",
+                  }}
                 >
-                  View Application →
-                </a>
-              </Text>
-            </SimpleGrid>
+                  <a
+                    href="https://github.com/dieterichelizabeth/TechBlog-Bebop"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    className="col-12 text-center"
+                  >
+                    View Repository →
+                  </a>
+                </Text>
+                <Text
+                  color={"#212224"}
+                  _hover={{
+                    textDecoration: "underline",
+                  }}
+                >
+                  <a
+                    href="https://agile-lake-02431.herokuapp.com/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    className="col-12 text-center"
+                  >
+                    View Application →
+                  </a>
+                </Text>
+              </SimpleGrid>
+            </Stack>
           </Stack>
-        </Stack>
-        <Flex>
-          <Image
-            rounded={"md"}
-            alt={"feature image"}
-            src={require(`../../assets/small/tech.png`)}
-            objectFit={"cover"}
-          />
-        </Flex>
-      </SimpleGrid>
-    </Container>
+          <Flex>
+            <Image
+              rounded={"md"}
+              alt={"feature image"}
+              src={require(`../../assets/small/tech.png`)}
+              objectFit={"cover"}
+            />
+          </Flex>
+        </SimpleGrid>
+      </Container>
+    </div>
   );
 
   return (
     <div>
-      {project1} {project2} {project3}
+      {project1}
+
+      {project2}
+
+      {project3}
     </div>
   );
 }
