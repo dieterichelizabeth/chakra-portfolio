@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/chakra-portfolio/static/css/main.5d2b7a2e.css",
-    "main.js": "/chakra-portfolio/static/js/main.2cd31674.js",
+    "main.js": "/chakra-portfolio/static/js/main.aebd8d43.js",
     "static/js/787.1e51571d.chunk.js": "/chakra-portfolio/static/js/787.1e51571d.chunk.js",
     "static/media/FoodTruckFinder.png": "/chakra-portfolio/static/media/FoodTruckFinder.e58f27cc66c671009216.png",
     "static/media/fft.png": "/chakra-portfolio/static/media/fft.f17e07893a9e9b77701b.png",
@@ -22,11 +22,11 @@
     "static/media/resume.pdf": "/chakra-portfolio/static/media/resume.8b9e4427272e45229a7b.pdf",
     "index.html": "/chakra-portfolio/index.html",
     "main.5d2b7a2e.css.map": "/chakra-portfolio/static/css/main.5d2b7a2e.css.map",
-    "main.2cd31674.js.map": "/chakra-portfolio/static/js/main.2cd31674.js.map",
+    "main.aebd8d43.js.map": "/chakra-portfolio/static/js/main.aebd8d43.js.map",
     "787.1e51571d.chunk.js.map": "/chakra-portfolio/static/js/787.1e51571d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5d2b7a2e.css",
-    "static/js/main.2cd31674.js"
+    "static/js/main.aebd8d43.js"
   ]
 }
