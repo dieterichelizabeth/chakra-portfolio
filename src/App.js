@@ -24,6 +24,7 @@ function App() {
   const navLinks = [
     { name: "Portfolio", href: "#portfolio" },
     { name: "About", href: "#about" },
+    { name: "Contact", href: "#contact" },
     { name: "Resume", href: "#resume" },
   ];
 
@@ -55,7 +56,7 @@ function App() {
                 fontWeight={"bold"}
                 href={"/"}
               >
-                LIZ DIETERICH
+                Liz Dieterich
               </Link>
             </Box>
           </HStack>

@@ -97,6 +97,7 @@ function Projects() {
                 src={require(`../../assets/small/${project.image}.png`)}
                 width={"full"}
                 objectFit={"cover"}
+                boxShadow={"md"}
               />
 
               <Stack textAlign={"left"}>

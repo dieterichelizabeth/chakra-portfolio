@@ -31,7 +31,7 @@ function Resume() {
         </Link>
         <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
           <Stack>
-            <Stack bg={"gray.50"} borderRadius={"15"} p={5} boxShadow={"2xl"}>
+            <Stack bg={"gray.50"} borderRadius={"15"} p={5} boxShadow={"lg"}>
               <Heading as={"h2"} fontSize={"15px"} pt={5}>
                 Elizabeth Dieterich
               </Heading>
@@ -73,7 +73,7 @@ function Resume() {
               </Text>
             </Stack>
 
-            <Stack bg={"gray.50"} borderRadius={"15"} p={5} boxShadow={"2xl"}>
+            <Stack bg={"gray.50"} borderRadius={"15"} p={5} boxShadow={"lg"}>
               <Heading as={"h2"} fontSize={"15px"}>
                 Summary
               </Heading>
@@ -87,7 +87,7 @@ function Resume() {
               </Text>
             </Stack>
 
-            <Stack bg={"gray.50"} borderRadius={"15"} p={5} boxShadow={"2xl"}>
+            <Stack bg={"gray.50"} borderRadius={"15"} p={5} boxShadow={"lg"}>
               <Heading as={"h2"} fontSize={"15px"}>
                 Technical Skills
               </Heading>
@@ -114,7 +114,7 @@ function Resume() {
           </Stack>
 
           <Stack>
-            <Stack bg={"gray.50"} borderRadius={"15"} p={5} boxShadow={"2xl"}>
+            <Stack bg={"gray.50"} borderRadius={"15"} p={5} boxShadow={"lg"}>
               <Heading as={"h2"} fontSize={"15px"} pt={5}>
                 Experience
               </Heading>
@@ -171,7 +171,7 @@ function Resume() {
               </Text>
             </Stack>
 
-            <Stack bg={"gray.50"} borderRadius={"15"} p={5} boxShadow={"2xl"}>
+            <Stack bg={"gray.50"} borderRadius={"15"} p={5} boxShadow={"lg"}>
               <Heading as={"h2"} fontSize={"15px"} pt={5}>
                 Education
               </Heading>

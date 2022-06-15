@@ -94,6 +94,7 @@ export default function FeaturedProjects() {
             alt={"feature image"}
             src={require(`../../assets/small/zoo.png`)}
             objectFit={"cover"}
+            boxShadow={"xl"}
           />
         </Flex>
       </SimpleGrid>
@@ -109,6 +110,7 @@ export default function FeaturedProjects() {
             alt={"feature image"}
             src={require(`../../assets/small/fft.png`)}
             objectFit={"cover"}
+            boxShadow={"xl"}
           />
         </Flex>
         <Stack spacing={4}>
@@ -259,6 +261,7 @@ export default function FeaturedProjects() {
               alt={"feature image"}
               src={require(`../../assets/small/tech.png`)}
               objectFit={"cover"}
+              boxShadow={"xl"}
             />
           </Flex>
         </SimpleGrid>

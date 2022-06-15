@@ -1,30 +1,36 @@
 import {
   Box,
+  Button,
   Container,
-  Link,
   Stack,
   Text,
+  Link,
+  Heading,
   useColorModeValue,
 } from "@chakra-ui/react";
 
-export default function SmallWithLogoLeft() {
+export default function Footer() {
   return (
     <Box
-      bg={useColorModeValue("gray.50", "gray.900")}
+      bg={useColorModeValue("gray.100", "gray.900")}
       color={useColorModeValue("gray.700", "gray.200")}
     >
       <Container
         as={Stack}
         maxW={"6xl"}
-        py={4}
-        direction={{ base: "column", md: "row" }}
+        py={6}
         spacing={4}
-        justify={{ base: "center", md: "space-between" }}
-        align={{ base: "center", md: "center" }}
+        justify={"center"}
+        align={"center"}
       >
-        <Text>©2022 Liz Dieterich</Text>
-        <Text>
-          Made with Love, Bootstrap, and
+        <Heading fontSize="1xl" color={"blue.500"}>
+          Get In Touch
+        </Heading>
+
+        <Text textAlign={"center"} fontSize={"12px"}>
+          Thank you for viewing my portfolio! <br />
+          If you have any questions, suggestions, or feedback, please reach out.{" "}
+          <br></br> Made with Love, Bootstrap, and
           <Link
             href={"https://chakra-ui.com/"}
             rel="noopener noreferrer"
@@ -38,11 +44,24 @@ export default function SmallWithLogoLeft() {
             Chakra UI.
           </Link>
         </Text>
-
-        <Stack direction={"row"} spacing={6}>
-          <Link href="mailto:dieterichelizabeth@gmail.com" fontSize={"12px"}>
-            Email
+        <Button
+          px={4}
+          fontSize={"12px"}
+          rounded={"full"}
+          bg={"blue.400"}
+          color={"white"}
+          _hover={{
+            bg: "blue.500",
+          }}
+          _focus={{
+            bg: "blue.500",
+          }}
+        >
+          <Link href="mailto:dieterichelizabeth@gmail.com">
+            Send an Email !
           </Link>
+        </Button>
+        <Stack direction={"row"} spacing={6}>
           <Link
             href={"https://github.com/dieterichelizabeth"}
             rel="noopener noreferrer"

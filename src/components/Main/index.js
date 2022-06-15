@@ -1,6 +1,7 @@
 import React from "react";
 import About from "../About";
 import Resume from "../Resume";
+import Contact from "../Contact";
 import Portfolio from "../Portfolio";
 
 function Main({ currentPage }) {
@@ -13,6 +14,9 @@ function Main({ currentPage }) {
     }
     if (currentPage === "Resume") {
       return <Resume />;
+    }
+    if (currentPage === "Contact") {
+      return <Contact />;
     }
   };
 

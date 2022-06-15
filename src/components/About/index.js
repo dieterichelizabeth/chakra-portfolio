@@ -17,7 +17,7 @@ function About() {
         <Stack
           align={"center"}
           spacing={{ base: 8, md: 10 }}
-          py={{ base: 20, md: 28 }}
+          py={{ base: 20, md: 20 }}
           direction={{ base: "column", md: "row" }}
         >
           <Stack flex={1} spacing={{ base: 5, md: 10 }}>
@@ -42,18 +42,6 @@ function About() {
               for an effortless user experience. I am excited to leverage my
               skills as part of a collaborative, versatile team to build
               intuitive and useful applications for users.
-            </Text>
-            <Text color={"gray.600"} fontSize={"14px"}>
-              <i className="bi bi-linkedin mr-2"></i>{" "}
-              https://www.linkedin.com/in/elizabeth-dieterich-067b55a8/
-              <br />
-              <i className="bi bi-github mr-2"></i>{" "}
-              https://github.com/dieterichelizabeth
-              <br />
-              <i className="bi bi-envelope mr-2"></i>{" "}
-              dieterichelizabeth@gmail.com
-              <br />
-              <i className="bi bi-geo-alt mr-2"></i> Dallas, TX
             </Text>
           </Stack>
           <Flex
