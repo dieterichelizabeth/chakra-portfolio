@@ -1,5 +1,4 @@
 import {
-  Badge,
   Button,
   Center,
   Flex,
@@ -60,11 +59,29 @@ export default function Contact() {
             <Text color={"gray.600"} fontSize={"14px"}>
               <i className="bi bi-geo-alt mr-2"></i> Dallas, TX <br />
               <i className="bi bi-envelope mr-2"></i>{" "}
-              dieterichelizabeth@gmail.com <br />
+              <Link href="mailto:dieterichelizabeth@gmail.com">
+                dieterichelizabeth@gmail.com
+              </Link>{" "}
+              <br />
               <i className="bi bi-github mr-2"></i>{" "}
-              https://github.com/dieterichelizabeth <br />
+              <Link
+                href={"https://github.com/dieterichelizabeth"}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                https://github.com/dieterichelizabeth
+              </Link>
+              <br />
               <i className="bi bi-linkedin mr-2"></i>{" "}
-              https://www.linkedin.com/in/elizabeth-dieterich-067b55a8/
+              <Link
+                href={
+                  "https://www.linkedin.com/in/elizabeth-dieterich-067b55a8/"
+                }
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                https://www.linkedin.com/in/elizabeth-dieterich-067b55a8/
+              </Link>
             </Text>
 
             <Stack
