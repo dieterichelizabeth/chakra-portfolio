@@ -1,25 +1,32 @@
 {
   "files": {
     "main.css": "/chakra-portfolio/static/css/main.5d2b7a2e.css",
-    "main.js": "/chakra-portfolio/static/js/main.b9de32fa.js",
+    "main.js": "/chakra-portfolio/static/js/main.2cd31674.js",
     "static/js/787.1e51571d.chunk.js": "/chakra-portfolio/static/js/787.1e51571d.chunk.js",
     "static/media/FoodTruckFinder.png": "/chakra-portfolio/static/media/FoodTruckFinder.e58f27cc66c671009216.png",
+    "static/media/fft.png": "/chakra-portfolio/static/media/fft.f17e07893a9e9b77701b.png",
+    "static/media/zoo.png": "/chakra-portfolio/static/media/zoo.d6940dc7d8ecae1f67a3.png",
+    "static/media/tech.png": "/chakra-portfolio/static/media/tech.e838fc19d632cd7a31e8.png",
     "static/media/aboutImage.png": "/chakra-portfolio/static/media/aboutImage.365ee648d9b8e0ac7671.png",
     "static/media/zoolander.png": "/chakra-portfolio/static/media/zoolander.854da9a97472d651dafd.png",
+    "static/media/notes.png": "/chakra-portfolio/static/media/notes.89c295dbda6d745e872f.png",
     "static/media/techBlog.png": "/chakra-portfolio/static/media/techBlog.866e4eb2484c628ca202.png",
-    "static/media/page1.png": "/chakra-portfolio/static/media/page1.5bee4d098bb0176f6fea.png",
-    "static/media/page2.png": "/chakra-portfolio/static/media/page2.93f717ecdaed9768e3c9.png",
+    "static/media/readme.png": "/chakra-portfolio/static/media/readme.430dbf53b05d2d820357.png",
+    "static/media/employee.png": "/chakra-portfolio/static/media/employee.51da07c057c17d730042.png",
+    "static/media/team.png": "/chakra-portfolio/static/media/team.d8b8d54e49baa6f3d607.png",
     "static/media/workdaySchedule.png": "/chakra-portfolio/static/media/workdaySchedule.d04da6450e41d5450ce6.png",
     "static/media/weatherDashboard.png": "/chakra-portfolio/static/media/weatherDashboard.52c24138097208c0c414.png",
+    "static/media/password.png": "/chakra-portfolio/static/media/password.6d08da00c8d430b41170.png",
     "static/media/budgetTracker.png": "/chakra-portfolio/static/media/budgetTracker.d2f2b7bc037420dd69c6.png",
+    "static/media/quiz.png": "/chakra-portfolio/static/media/quiz.f716dd948cb8905bc5a9.png",
     "static/media/resume.pdf": "/chakra-portfolio/static/media/resume.8b9e4427272e45229a7b.pdf",
     "index.html": "/chakra-portfolio/index.html",
     "main.5d2b7a2e.css.map": "/chakra-portfolio/static/css/main.5d2b7a2e.css.map",
-    "main.b9de32fa.js.map": "/chakra-portfolio/static/js/main.b9de32fa.js.map",
+    "main.2cd31674.js.map": "/chakra-portfolio/static/js/main.2cd31674.js.map",
     "787.1e51571d.chunk.js.map": "/chakra-portfolio/static/js/787.1e51571d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5d2b7a2e.css",
-    "static/js/main.b9de32fa.js"
+    "static/js/main.2cd31674.js"
   ]
 }
