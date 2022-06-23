@@ -6,11 +6,9 @@ This project is another remake of my portfolio, this time using the wonderful Ch
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), [Chakra UI](https://chakra-ui.com/), and [Bootstrap Icons](https://icons.getbootstrap.com/).
 
-For reference, previous portfolio repositories- [HTML Portfiolio](https://github.com/dieterichelizabeth/Portfolio) and [First React Portfolio](https://github.com/dieterichelizabeth/React-Portfolio)
-
 ## Screenshots
 
-<img width="466" alt="Screen Shot 2022-06-04 at 6 43 38 PM" src="https://user-images.githubusercontent.com/95142863/172029187-863d0f6a-b216-4362-9bfd-838d5c5e1983.png">
+<img width="1343" alt="Screen Shot 2022-06-23 at 2 32 50 PM" src="https://user-images.githubusercontent.com/95142863/175382443-09ce930d-bc93-46dd-9af7-3e1420a695b7.png">
 
 ## Run Locally
 
@@ -35,6 +33,10 @@ npm start
 ```
 
 4. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+## Technologies used
+  
+<img src="https://img.shields.io/badge/Chakra--UI-319795?style=for-the-badge&logo=chakra-ui&logoColor=white" />  <img src="https://img.shields.io/badge/react%20os-0088CC?style=for-the-badge&logo=reactos&logoColor=white" /> <img src="https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" /> <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />  
 
 ## Learn More
 
